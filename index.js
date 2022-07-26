@@ -13,7 +13,7 @@ var age = 25;
 
 // boolean type variable 
 var married = true;
-console.log(married);
+// console.log(married);
 
 // variable with camelCase 
 var permanentAddress = 'Mirpur, Dhaka';
@@ -27,13 +27,36 @@ var availableMoney = 100000;
 var mobile = 10;
 
 var totalPrice = mobilePrice + laptopPrice + watchPrice;
-console.log(totalPrice);
+// console.log(totalPrice);
 
 var restMoney = availableMoney - totalPrice;
-console.log(restMoney);
+// console.log(restMoney);
 
 var totalMobilePrice = mobile * mobilePrice;
-console.log(totalMobilePrice);
+// console.log(totalMobilePrice);
 
 var totalMobile = availableMoney / mobilePrice;
-console.log(totalMobile);
+// console.log(totalMobile);
+
+// math short hand 
+var bikePrice = 150000;
+bikePrice = bikePrice + 50000;
+bikePrice += 50000;
+bikePrice++;
+// console.log(bikePrice);
+
+var carPrice = 1150000;
+carPrice = carPrice - 50000;
+carPrice -= 50000;
+carPrice--;
+// console.log(carPrice);
+
+var glassPrice = 1100;
+glassPrice = glassPrice * 2;
+glassPrice *= 2;
+// console.log(glassPrice);
+
+var fuelPrice = 200;
+fuelPrice = fuelPrice / 2;
+fuelPrice /= 2;
+// console.log(fuelPrice);
